@@ -30,6 +30,14 @@ form.addEventListener('submit',e=>{
             output++;
         }
     }, 10);
+
+    const content= document.querySelectorAll('.add');
+    content.forEach(para=>{
+        para.innerHTML+='<i class="fas fa-check"></i>';
+    });
+
+
+
 });
 
 // let i=0;
