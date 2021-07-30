@@ -35,31 +35,6 @@ form.addEventListener('submit',e=>{
     content.forEach(para=>{
         para.innerHTML+='<i class="fas fa-check"></i>';
     });
-
-
-
+    // content.innerHTML+='<i class="fas fa-check"></i>'
 });
 
-// let i=0;
-// const timer=setInterval(() => {
-//     console.log('hello');
-//     i++;
-//     if(i===5){
-//         clearInterval(timer);
-//     }
-// }, 1000);
-
-
-// setInterval(() => {
-//     console.log('hello');
-// }, 1000);
-
-//window object(global object)
-
-// console.log(document.querySelector('form'));
-
-// alert('hello');
-
-// setTimeout(()=>{
-//     alert('hello,ninjas');
-// },3000  );
